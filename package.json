@@ -1,0 +1,32 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Homeworks-ajs/Babel.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "TomuraCreator",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Homeworks-ajs/Babel/issues"
+  },
+  "homepage": "https://github.com/Homeworks-ajs/Babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "core-js": "^3.5.0"
+  }
+}
